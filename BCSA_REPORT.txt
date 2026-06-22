@@ -1,0 +1,28 @@
+==================================================================
+               SPN CIPHER LAB SECURITY REPORT                     
+==================================================================
+Cipher Configuration Parameters:
+  - Encryption Rounds: 8
+  - Master Secret Key: 0xA6
+
+Difference Analysis Output Vector Logs:
+  - Ciphertext 1 Hex : BD 0C 71 63 F1 EC 9D 87 1F 6D
+  - Ciphertext 2 Hex : C9 49 3A 15 7F 63 F7 C0 EC A8 F1 6D
+  - Byte XOR Profiles: 74 45 4B 76 8E 8F 6A 47 F3 C5 F1 6D
+
+Avalanche Performance Evaluation:
+  - Inspected Bit Register Width : 96 Bits
+  - Confirmed Bit Flip Count    : 53 Bits
+  - Strict Avalanche Percentage : 55.21% (Target: 50.00%)
+
+Frequency Distribution Spectrum (Top 5 Bytes):
+     Byte [0xBD]: Occurred 1 times (10.0%)
+     Byte [0x0C]: Occurred 1 times (10.0%)
+     Byte [0x71]: Occurred 1 times (10.0%)
+     Byte [0x63]: Occurred 1 times (10.0%)
+     Byte [0xF1]: Occurred 1 times (10.0%)
+
+Linear Bit-Density Statistical Profile:
+  - Bit Density Counter Metrics : 1s = 45 | 0s = 35
+  - Measured Statistical Bias   : 0.0625 (Ideal: 0.0000)
+==================================================================
